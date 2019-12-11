@@ -1,1 +1,4 @@
-
+The Questions Fetched from StackOverFlow are Android Related Two Lists, First list is the top 10 Newest Android Related Questions on StackOverflow and the Second list is the Most Voted Android Related Created in the Past Week.
+Data Miner was used and two new Recipes were created to fetch the needed data from stackoverflow relating to the previous lists and after the tool was utilized and successfully implemented, the fetched data with two files was downloaded.
+Then in the second part of the project the fetched data was used to create a website called android-stackoverflow using JavaScript, HTML and CSS and using the Atom IDE.
+The Website has all the functions related to the project's and furthermore it has one more cool function which is when a question is read and checked, it gets crossed when the checkbox is checked signifying that it was read and the crossed questions stay crossed until you only reload the page manually or press the home button.
