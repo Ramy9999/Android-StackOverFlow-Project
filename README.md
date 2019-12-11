@@ -1,0 +1,2 @@
+# Android-StackOverFlow-Project
+This is a simple two days project which consists of two parts: first part data scraping StackOverflow Website for fetching two lists with their titles and their respective URLs using a tool called Data Miner which uses R-programming Language and custom JavaScript. Second Part is creating a website of the fetched data and being able to read and display each part and question conveniently with an extra custom cool feature.
