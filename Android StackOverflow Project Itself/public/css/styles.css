@@ -1,0 +1,169 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: auto;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+/* body {
+  overflow-y: scroll;
+} */
+
+/* keeping the footer at the bottom */
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+
+} */
+/* end of keeping footer at the bottom */
+
+#compose {
+  font-size: 2rem;
+}
+#compose:hover{
+  background-color: #1abc9c !important;
+}
+
+@media (max-width:991px) {
+  p {
+  overflow-wrap: break-word;
+}
+
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+.androidPhone{
+  margin-top: 10px;
+}
+
+.sizeBig{
+  font-size: 25px;
+}
+
+.sizeFit{
+  font-size: 24px;
+}
+
+
+/* input:checked+a {
+  text-decoration: line-through;
+  text-decoration-color: #f8a978;
+} */
+
+/* input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #f8a978;
+} */
+
+.checkHigh:checked + .elemHigh {
+  font-weight: bold;
+  text-decoration: line-through;
+  text-decoration-color: #f8a978;
+}
+
+
+.check-with-label:checked + .label-for-check {
+  font-weight: bold;
+  text-decoration: line-through;
+  text-decoration-color: #007944;
+}
+
+.check-with-labelTwo:checked + .label-for-checkTwo {
+  font-weight: bold;
+  text-decoration: line-through;
+  text-decoration-color: #57007e;
+}
+
+ /* .label-for-check + .check-with-label:checked {
+
+  text-decoration: line-through;
+  text-decoration-color: #f8a978;
+} */
+
+
+/* extra Styles */
+
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #f8a978;
+}
+
+/* input[type="checkbox"] {
+  margin: 20px;
+} */
+
+ input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #f8a978;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
